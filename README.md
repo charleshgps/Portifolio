@@ -1,14 +1,14 @@
 <h1 align="center">Portifólio - Charles 💻</h1>
 
-![Imagem do projeto finalizado](assets/images/projects/portifolio.png)
+<!--![Imagem do projeto finalizado](assets/images/projects/portifolio.png)
 
-<!--<h4 align="center"><a href="https://lucyanovidio.vercel.app">Confira o projeto aqui</a></h4>-->
+<h4 align="center"><a href="https://lucyanovidio.vercel.app">Confira o projeto aqui</a></h4>-->
 
 ---
 
 ## 💻 Sobre
 
-Projeto feito no intuito de me apresentar, como desenvolvedor web front-end.
+Projeto feito no intuito de espor meus trabalhos, tanto como desenvolvedor web front-end como analisata de dados.
 
 ## 🤯 O site é composto por:
 
