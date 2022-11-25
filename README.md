@@ -43,10 +43,10 @@ Neste projeto apliquei os seguintes pontos:
 <table>
   <tr>
     <td>
-      <img src="https://github.com/lucyanovidio.png" width="100px" />
+      <img src="https://github.com/charleshgps.png" width="100px" />
     </td>
     <td>
-      Feito por <a href="https://github.com/lucyanovidio">Lucyan Ovídio.</a> 🙋🏿‍♂️
+      Feito por <a href="https://github.com/charleshgps">Charles Silva.</a> 
     </td>
   </tr>
 </table>
