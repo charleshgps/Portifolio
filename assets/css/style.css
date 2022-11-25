@@ -477,9 +477,9 @@ body.menu-expanded button path {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  gap: 5rem;
 
-  animation: flutuar 3s infinite backwards;
+  animation: flutuar 2s infinite backwards;
   position: relative;
 }
 
@@ -888,7 +888,7 @@ body.light-mode #home img#notebook-2-white {
 }
 
 #contact .col-b {
-  height: 38rem;
+  height: 21rem;
 
   display: flex;
   flex-direction: column;
@@ -907,7 +907,7 @@ body.light-mode #home img#notebook-2-white {
   display: block;
 
   width: 13rem;
-  height: 5rem;
+  height: 2rem;
 
   background-color: black;
   border-radius: 100%;
