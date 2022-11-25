@@ -10,7 +10,7 @@
 
 Projeto feito no intuito de espor meus trabalhos, tanto como desenvolvedor web front-end como analisata de dados.
 
-## 🤯 O site é composto por:
+## 👨‍💻 O site é composto por:
 
 - **Home:** Minha apresentação;
 - **Sobre mim:** Falo um pouco sobre minha trajetória e meu estado atual;
