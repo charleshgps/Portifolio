@@ -278,7 +278,8 @@ body.light-mode nav.scroll {
 /* LOGO */
 
 a.logo {
-  font-family: "Gemunu Libre", sans-serif;
+  font-family: 'Share Tech Mono', monospace;
+  /*font-family: "Gemunu Libre", sans-serif;*/
   font-size: 3rem;
   opacity: 0.7;
 }
