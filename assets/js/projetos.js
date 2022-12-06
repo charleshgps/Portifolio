@@ -46,6 +46,7 @@ function projetos(section) {
           </p>
           <p>HTML - CSS - JS - NodeJS - Express - SQLite</p>
         </div>
+        
         <div class="card">
           <h3>Desafio 21 dias de código</h3>
           <div class="img-wrapper">
@@ -88,6 +89,7 @@ function projetos(section) {
           </p>
           <p>HTML - CSS - JS</p>
         </div>
+
         <div class="card">
           <h3>Nutricionista Roberto - Links</h3>
           <div class="img-wrapper">
@@ -125,6 +127,7 @@ function projetos(section) {
           <p>Páginas de links desenvolvida para cliente.</p>
           <p>HTML - CSS - JS</p>
         </div>
+
         <div class="card">
           <h3>Nutricionista Roberto - Página de consulta</h3>
           <div class="img-wrapper">
@@ -162,6 +165,7 @@ function projetos(section) {
           <p>Página de contato para consultas desenvolvida para cliente.</p>
           <p>HTML - CSS - JS</p>
         </div>
+
         <div class="card">
           <h3>Doctor Care</h3>
           <div class="img-wrapper">
@@ -199,6 +203,7 @@ function projetos(section) {
           <p>Projeto de site desenvolvido na Next Level Week Return da Rocketseat.</p>
           <p>HTML - CSS - JS</p>
         </div>
+        
         <div class="card">
           <h3>Meu Portifólio</h3>
           <div class="img-wrapper">
@@ -239,6 +244,7 @@ function projetos(section) {
           </p>
           <p>HTML - CSS - JS</p>
         </div>
+
         <div class="card">
           <h3>Em breve...</h3>
           <svg
