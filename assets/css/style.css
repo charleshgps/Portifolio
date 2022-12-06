@@ -25,6 +25,8 @@
   --nav-height: 7.2rem;
 }
 
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -208,12 +210,7 @@ body nav#navigation .social-links li:nth-child(2) svg:hover path:nth-child(2) {
 }
 
 body.light-mode .social-links li:nth-child(2) svg:hover path:nth-child(2),
-body.light-mode
-  nav#navigation
-  .social-links
-  li:nth-child(2)
-  svg:hover
-  path:nth-child(2) {
+body.light-mode nav#navigation .social-links li:nth-child(2) svg:hover path:nth-child(2) {
   fill: #000;
 }
 
@@ -456,6 +453,7 @@ body.menu-expanded button path {
   from {
     width: 0;
   }
+
   to {
     width: 27.5rem;
   }
@@ -465,6 +463,7 @@ body.menu-expanded button path {
   from {
     border-right-color: var(--primary-color);
   }
+
   to {
     border-right-color: transparent;
   }
@@ -479,7 +478,6 @@ body.menu-expanded button path {
   flex-direction: column;
   align-items: center;
   gap: 5rem;
-
   animation: flutuar 2s infinite backwards;
   position: relative;
 }
@@ -488,9 +486,11 @@ body.menu-expanded button path {
   0% {
     transform: translateY(2rem);
   }
+
   50% {
     transform: translateY(-2rem);
   }
+
   100% {
     transform: translateY(2rem);
   }
@@ -499,17 +499,14 @@ body.menu-expanded button path {
 #home .wrapper::before {
   content: "";
   display: block;
-
   width: 27rem;
   height: 27rem;
-
-  background-color: var(--primary-color);
-  border-radius: 100%;
-
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  border-radius: 52% 48% 0% 100% / 48% 100% 0% 52%;
   position: absolute;
   bottom: -3.1rem;
   z-index: -1;
-
   animation: appear 1s 500ms backwards;
 }
 
@@ -562,6 +559,7 @@ body.light-mode #home img#notebook-2-white {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -572,6 +570,7 @@ body.light-mode #home img#notebook-2-white {
     right: -4rem;
     opacity: 0;
   }
+
   to {
     right: -2rem;
     opacity: 1;
@@ -637,7 +636,7 @@ body.light-mode #home img#notebook-2-white {
   font-style: italic;
 }
 
-#projects header p + a {
+#projects header p+a {
   padding: 0.8rem 2rem;
   color: var(--paragraph);
 
@@ -698,7 +697,7 @@ body.light-mode #home img#notebook-2-white {
   transition: 300ms;
 }
 
-#projects .card:hover > .img-wrapper img {
+#projects .card:hover>.img-wrapper img {
   filter: opacity(0.5);
 }
 
@@ -719,7 +718,7 @@ body.light-mode #home img#notebook-2-white {
   transition: 400ms;
 }
 
-#projects .card:hover > .img-wrapper .buttons {
+#projects .card:hover>.img-wrapper .buttons {
   visibility: visible;
   opacity: 1;
 }
@@ -757,16 +756,16 @@ body.light-mode #home img#notebook-2-white {
   cursor: pointer;
 }
 
-#projects .card .buttons a:hover > svg {
+#projects .card .buttons a:hover>svg {
   fill: #fff;
 }
 
-#projects .card:nth-child(5) h3 + svg {
+#projects .card:nth-child(5) h3+svg {
   width: 6rem;
   height: 6rem;
 }
 
-#projects .card:nth-child(5) p + svg {
+#projects .card:nth-child(5) p+svg {
   width: 3rem;
   height: 3rem;
 }
@@ -1017,7 +1016,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   transition: 500ms;
 }
 
-#toggle input:checked + label::before {
+#toggle input:checked+label::before {
   transform: translateX(3.8rem);
 }
 
@@ -1229,27 +1228,15 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
     stroke: #ff377a;
   }
 
-  nav#navigation.scroll
-    .social-links
-    li:nth-child(2)
-    svg:hover
-    path:nth-child(2) {
+  nav#navigation.scroll .social-links li:nth-child(2) svg:hover path:nth-child(2) {
     fill: #fff;
   }
 
-  nav#navigation.scroll
-    .social-links
-    li:nth-child(3)
-    svg:hover
-    path:nth-child(2) {
+  nav#navigation.scroll .social-links li:nth-child(3) svg:hover path:nth-child(2) {
     fill: #0a66c2;
   }
 
-  nav#navigation.scroll
-    .social-links
-    li:nth-child(4)
-    svg:hover
-    path:nth-child(2) {
+  nav#navigation.scroll .social-links li:nth-child(4) svg:hover path:nth-child(2) {
     fill: #00abf0;
   }
 
@@ -1300,6 +1287,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
     from {
       width: 0;
     }
+
     to {
       width: 38rem;
     }
@@ -1479,6 +1467,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
     from {
       width: 0;
     }
+
     to {
       width: 23.5rem;
     }
@@ -1571,6 +1560,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
     from {
       width: 0;
     }
+
     to {
       width: 18rem;
     }
