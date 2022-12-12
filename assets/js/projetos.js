@@ -82,7 +82,7 @@ function projetos(section) {
                       </a>
                   </div>
               </div>
-              <p>Meu Portfólio.</p>
+              <p>Relógio analogico que espelha o horario da maquina.</p>
               <p>HTML - CSS - JS</p>
           </div>
           <div class="card">
