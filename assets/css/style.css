@@ -90,6 +90,18 @@ img {
   color: var(--paragraph);
 }
 
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 section {
   padding-block: 10rem;
   padding-inline: 2rem;
@@ -428,6 +440,11 @@ body.menu-expanded button path {
   margin-bottom: 1rem;
 }
 
+#home h1 .scramble-char {
+  color: var(--primary-color);
+  opacity: 0.7;
+}
+
 #home p {
   display: inline-flex;
 
@@ -508,6 +525,8 @@ body.menu-expanded button path {
   bottom: -3.1rem;
   z-index: -1;
   animation: appear 1s 500ms backwards;
+  transform: translate(var(--blob-x, 0px), var(--blob-y, 0px));
+  transition: transform 300ms ease-out;
 }
 
 #home img {
@@ -665,6 +684,9 @@ body.light-mode #home img#notebook-2-white {
 }
 
 #projects .card {
+  --x: 50%;
+  --y: 50%;
+
   padding: 4rem;
   background: var(--bg-color);
 
@@ -676,11 +698,31 @@ body.light-mode #home img#notebook-2-white {
   align-items: center;
   gap: 2.5rem;
 
-  transition: 400ms;
+  position: relative;
+  overflow: hidden;
+
+  transition: background-color 400ms, box-shadow 400ms, transform 150ms ease-out;
+  will-change: transform;
 }
 
 #projects .card:hover {
   background: var(--third-color);
+}
+
+#projects .card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: radial-gradient(500px circle at var(--x) var(--y), hsla(var(--hue), 92%, 43%, 0.16), transparent 45%);
+  opacity: 0;
+
+  transition: opacity 300ms;
+  pointer-events: none;
+}
+
+#projects .card:hover::after {
+  opacity: 1;
 }
 
 #projects .card .img-wrapper {
@@ -791,6 +833,9 @@ body.light-mode #home img#notebook-2-white {
 }
 
 #knowledge .card {
+  --x: 50%;
+  --y: 50%;
+
   padding: 2.8rem;
   text-align: left;
 
@@ -799,11 +844,31 @@ body.light-mode #home img#notebook-2-white {
   border-radius: 0.6rem;
   box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.267);
 
-  transition: 400ms;
+  position: relative;
+  overflow: hidden;
+
+  transition: background-color 400ms, box-shadow 400ms, transform 150ms ease-out;
+  will-change: transform;
 }
 
 #knowledge .card:hover {
   background: var(--third-color);
+}
+
+#knowledge .card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: radial-gradient(500px circle at var(--x) var(--y), hsla(var(--hue), 92%, 43%, 0.16), transparent 45%);
+  opacity: 0;
+
+  transition: opacity 300ms;
+  pointer-events: none;
+}
+
+#knowledge .card:hover::after {
+  opacity: 1;
 }
 
 #knowledge .card h3 {
@@ -1018,6 +1083,22 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 
 #toggle input:checked+label::before {
   transform: translateX(3.8rem);
+}
+
+/*===== SCROLL PROGRESS BAR =====================================*/
+
+#scrollProgress {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 0%;
+  height: 0.3rem;
+
+  background: var(--primary-color);
+  z-index: 200;
+
+  transition: width 100ms linear;
 }
 
 /*===== BACK TO TOP BUTTON =====================================*/
