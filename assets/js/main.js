@@ -9,13 +9,14 @@ const projectsSection = document.querySelector("#projects .wrapper");
 const notebook_1 = document.querySelector("#notebook-1");
 const notebook_2 = document.querySelector("#notebook-2");
 const notebook_2_white = document.querySelector("#notebook-2-white");
-const vidro = document.querySelector("#vidro");
+// #vidro está comentado em index.html (efeito desativado), por isso não é lido aqui.
 
 window.addEventListener("load", function begin() {
   projetos(projectsSection);
   const desafioBtn = document.querySelector("#desafio");
 
-  desafioBtn.addEventListener("click", () => {
+  // #desafio não existe no HTML ainda; guarda contra null até o botão ser adicionado.
+  desafioBtn?.addEventListener("click", () => {
     desafios(projectsSection);
     document
       .querySelector("#backToProjectsBtn")
@@ -26,13 +27,12 @@ window.addEventListener("load", function begin() {
 window.addEventListener("scroll", onScroll);
 onScroll();
 
-window.onload = setTimeout(() => {
+setTimeout(() => {
   notebook_1.style.opacity = 0;
 
   notebook_1.style.animation = "none";
   notebook_2.style.animation = "none";
   notebook_2_white.style.animation = "none";
-  vidro.style.animation = "none";
 }, 4000);
 
 function onScroll() {
