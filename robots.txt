@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://portifolio-0evb.onrender.com/sitemap.xml
