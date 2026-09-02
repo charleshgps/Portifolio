@@ -1,4 +1,3 @@
-import { desafios } from "./desafios.js";
 import { projetos } from "./projetos.js";
 
 const navigation = document.querySelector("#navigation");
@@ -13,15 +12,6 @@ const notebook_2_white = document.querySelector("#notebook-2-white");
 
 window.addEventListener("load", function begin() {
   projetos(projectsSection);
-  const desafioBtn = document.querySelector("#desafio");
-
-  // #desafio não existe no HTML ainda; guarda contra null até o botão ser adicionado.
-  desafioBtn?.addEventListener("click", () => {
-    desafios(projectsSection);
-    document
-      .querySelector("#backToProjectsBtn")
-      .addEventListener("click", begin);
-  });
 });
 
 window.addEventListener("scroll", onScroll);
