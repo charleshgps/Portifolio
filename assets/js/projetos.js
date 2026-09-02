@@ -82,7 +82,7 @@ function projetos(section) {
           <div class="card">
               <h3>Calculator</h3>
               <div class="img-wrapper">
-                  <!-- <img src="./assets/images/projects/calculator.png" alt="GIF do projeto Orange Evolution." /> -->
+                  <img src="./assets/images/projects/calculator.png" alt="Imagem do projeto Calculator." />
                   <div class="buttons">
                       <a href="https://github.com/charleshgps/Calculator-App-Coding" target="_blank"
                           title="Repositório no Github">
@@ -111,7 +111,7 @@ function projetos(section) {
           <div class="card">
               <h3>Sound Pad</h3>
               <div class="img-wrapper">
-                  <!-- <img src="/assets/images/projects/sound pad app.png" alt="Imagem do projeto." /> -->
+                  <img src="./assets/images/projects/sound pad app.png" alt="Imagem do projeto Sound Pad." />
                   <div class="buttons">
                       <a href="https://github.com/charleshgps/Sound-Pad-App" target="_blank"
                           title="Repositório no Github">
@@ -138,7 +138,7 @@ function projetos(section) {
           <div class="card">
               <h3>Glass Clock</h3>
               <div class="img-wrapper">
-                  <!-- <img src="/assets/images/projects/glass clock.png" alt="Imagem do projeto." /> -->
+                  <img src="./assets/images/projects/glass clock.png" alt="Imagem do projeto Glass Clock." />
                   <div class="buttons">
                       <a href="https://github.com/charleshgps/Glass-Clock" target="_blank" title="Repositório no Github">
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">

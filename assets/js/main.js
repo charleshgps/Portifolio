@@ -14,6 +14,9 @@ window.addEventListener("load", function begin() {
   projetos(projectsSection);
 });
 
+const currentYear = document.querySelector("#currentYear");
+currentYear.textContent = new Date().getFullYear();
+
 window.addEventListener("scroll", onScroll);
 onScroll();
 
